@@ -1,8 +1,8 @@
 
 # Poket Book
-Who doesn't need a good note taking app, especially if it is Pokémon Themed! This Poket Book allows you to add/delete/edit/view notes, to-do list items, your favorite links, and you can check your calender. 
+Who doesn't need a good note taking app, especially if it is Pokémon Themed! This _Poket Book_ allows you to add/delete/edit/view notes, to-do list items, your favorite links, and you can check your calender. 
 
-In this project, instead of doing all the coding for the game on a singular app.js or index.js page, I broke my source code up into their respective component and layout files. I now have pretty solid understanding of how to seperate and intergrate my component files with and from each other, and I now know how to correctly use more NPM Packages (such as moment, react-calender, react-newline-to-break, font-awesome etc). This application is fully functional. You can add, view, edit, delete most of the notes, links and to-do's, just note that there are hard coded values already added for testing that can be removed. 
+In this project, instead of doing all the coding for the game on a singular app.js or index.js page, I broke my source code up into their respective component and layout files. I now have pretty solid understanding of how to seperate and intergrate my component files with and from each other using Local Storage, and I now know how to correctly use more NPM Packages (such as moment, react-calender, react-newline-to-break, font-awesome etc). This application is fully functional. You can add, view, edit, delete most of the notes, links and to-do's, just note that there are hard coded values already added for testing that can be removed. 
 
 A special thanks to the creators of the PokemonGB-font, PocketMonkFont, PokemonPixels Font, and the background image. Credit links are down below.
 
@@ -11,10 +11,27 @@ Day three (3) of trying to code in React on my own was a success. I completed it
 #### FUTURE NOTE: 
 Later on, when I have more time and understanding, I want to modify the calender so that you can store important dates or notes on it.
 
-## My Version UI
-![Numbc](https://user-images.githubusercontent.com/87696858/129916649-7944f224-5f49-4bb6-a0f3-143c4db07bf2.png)
+## Video Preview
+https://user-images.githubusercontent.com/87696858/130233851-f83862c7-b963-40df-adfc-71e0dd973cbe.mp4
 
+## Main Display
+![image](https://user-images.githubusercontent.com/87696858/130233617-d872fde9-78b8-40e3-b84b-5e743a34bdf3.png)
 
+## Modifying Notes
+![screencapture-localhost-3000-2021-08-20-13_59_55](https://user-images.githubusercontent.com/87696858/130233662-ca7c69f5-37af-4fe9-aea3-ab6c4a632091.png)
+![screencapture-localhost-3000-note-0-2021-08-20-14_00_13](https://user-images.githubusercontent.com/87696858/130234145-33df6efb-180c-4ef1-a105-5ea2ea4c3b40.png)
+![screencapture-localhost-3000-note-2021-08-20-13_58_38](https://user-images.githubusercontent.com/87696858/130233806-2e094c01-d110-4a16-b4d6-b3b67b83e239.png)
+
+## Modifying To-Dos
+![screencapture-localhost-3000-2021-08-20-14_01_33](https://user-images.githubusercontent.com/87696858/130233691-150e4490-6406-46a5-b057-6fa7ee33c27b.png)
+
+## Modifying Favorites
+![screencapture-localhost-3000-2021-08-20-14_02_53](https://user-images.githubusercontent.com/87696858/130233740-73b33df8-e863-494c-a6ed-f661a6978c2a.png)
+
+Credit Links:
+https://www.fontspace.com/search?q=pokemon
+https://www.freepik.com/free-vector/empty-park-landscape-scene-with-river_13753820.htm?query=cartoon%20background
+__________________________________________________________________________________________________________________________________________________________________________________
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
