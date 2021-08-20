@@ -1,0 +1,370 @@
+:root {
+  --petite: #f0ead8;
+  --neptune: #668cd8;
+  --mizu: #a8d8f0;
+  --astilbe: #ffeff3;
+
+  --sugar: #ff89bf;
+  --yellow: #fbf0c0;
+  --brightblue: #a0f3ed;
+  --purple: #8d93e7;
+  --blue: #3647df;
+  --rush: #3bc570;
+  --red: #ff8c5f;
+  --green: #9fffc4;
+  --darkgreen: #9eceb055;
+  --success: #e8fff1;
+  --white: #fff;
+  --grey: #131313;
+  --black: #000;
+}
+
+@font-face {
+  font-family: "PocketMonk";
+  src: url(css/fonts/PocketMonk-15ze.ttf);
+}
+
+@font-face {
+  font-family: "PokemonGb";
+  src: url(css/fonts/PokemonGb-RAeo.ttf);
+}
+
+@font-face {
+  font-family: "Pixels";
+  src: url(css/fonts/PokemonPixels1-jYmj.ttf);
+}
+
+body {
+  margin: 0 auto;  font-family: 'Courier New', Courier, monospace !important;
+  min-height: 100vh;
+  background-color: var(--mizu) !important;
+  background-image: url(css/images/bg.jpg);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: "PokemonGb"; 
+  font-weight: 900;
+  font-size: 22px !important;
+  color: var(--grey);
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--white);
+  border-radius: 6px 6px 6px 6px;
+  line-height: 35px !important;
+}
+
+/*---------------- Styling for notes section ---------------------*/
+.card {
+  margin: 0 auto;
+  min-height: 380px;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-header {
+  background-color: var(--green) !important;  
+  border: 1px solid var(--darkgreen) !important;
+  box-shadow: 0 2px 2px 0 rgba(31, 30, 30, 0.055);
+}
+
+.card-body {
+  background-color: var(--yellow) !important;  
+  border: 1px solid var(--darkgreen) !important;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.card-notes-header {
+  font-family: "PokemonGb";
+  padding-bottom: 10px;
+}
+
+.btn-success {
+  background-color: var(--success) !important;
+  color: var(--grey) !important;
+  border: 1px solid var(--green) !important; 
+  font-weight: 600 !important; 
+  border-radius: 6px 6px 6px 6px;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  border: 2px solid var(--purple);
+  box-shadow: 0px 0px 1px 1px var(--purple);
+  background-color: var(--neptune) !important;
+  color: white !important;
+}
+
+.btn-danger {
+  background-color: var(--red) !important;
+  color: var(--grey) !important;
+  border: 1px solid var(--green) !important; 
+  font-weight: 600 !important; 
+  border-radius: 6px 6px 6px 6px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  border: 2px solid var(--rush);
+  box-shadow: 0px 0px 1px 1px var(--rush);
+  background-color: var(--blue) !important;
+  color: white !important;
+}
+
+.pixels {
+  font-family: "Pixels"; 
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: none; 
+  color: var(--grey) !important;  
+  -webkit-text-stroke: 0px !important;
+}
+
+.app-title {
+  text-align: center;
+  font-family: "PocketMonk";
+  font-size: 95px;
+  padding: 10px;
+  color: var(--white);
+  -webkit-text-stroke: 3px var(--blue);
+  text-shadow: 4px 4px var(--blue);
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-pixels {
+  max-height: 20px;
+  position: relative;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.card-pixels > .pixels{
+  font-size: 18px !important;
+  color: var(--grey) !important;
+}
+
+.card-pixels-todo {
+  height: 20px;
+  margin-top: 118%;
+  margin-left: 350px !important;
+  position: absolute; 
+  z-index: 1; padding-top:75px; 
+}
+
+.card-pixels-todo > .pixels{
+  padding-top:150px; 
+  font-size: 20px !important;
+  color: var(--neptune) !important;
+}
+
+/*---------------- Styling for todo section ---------------------*/
+
+.card-header-todo {
+  padding-bottom: 10px; 
+  background-color: var(--green) !important;  
+  border: 1px solid var(--darkgreen) !important; 
+  border-radius: 6px 6px 0px 0px;
+  margin-top: -17px;
+  margin-left: -17px;
+  margin-right: -17px; 
+  box-shadow: 0 2px 2px 0 rgba(31, 30, 30, 0.055);
+}
+
+.input{
+  background-color: var(--white);
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--black);
+  border-radius: 6px 6px 6px 6px;
+  margin-top: 10px;
+  margin-left: 15px;
+  height: 30px;
+}
+
+.todo-list-header {
+  padding-bottom: 15px !important;
+}
+
+.todo-body{
+  border-radius: 6px 6px 6px 6px;
+}
+
+.btn-add > .btn-success {
+  background-color: var(--neptune)  !important;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 600 !important; 
+  border-radius: 6px 6px 6px 6px;
+  width: 130px;
+}
+
+.btn-icon-trash {
+  background-color: var(--red) !important;
+  color: var(--white) !important;
+  margin-left: 20px;
+}
+
+.btn-icon-trash:hover {
+  box-shadow: 0px 0px 2px 2px var(--brightblue);
+  background-color: var(--rush)!important;
+  color: var(--white) !important;
+  transition: 10ms;
+  transform: rotateY(180deg);
+}
+
+.btn-icon-check {
+  background-color: var(--rush)!important;
+  color: var(--white) !important;
+  margin-left: 20px;
+}
+
+.btn-icon-check:hover {
+  box-shadow: 0px 0px 2px 2px var(--sugar);
+  background-color: var(--astilbe)!important;
+  color: var(--grey) !important;
+  transition: 10ms;
+}
+
+.btn-icon-redo {
+  background-color: var(--neptune) !important;
+  color: var(--white) !important;
+  margin-left: 20px;
+}
+
+.btn-icon-redo:hover {
+  box-shadow: 0px 0px 2px 2px var(--purple);
+  background-color: var(--mizu)!important;
+  color: var(--white) !important;
+  transition: 10ms;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+/*---------------- Styling for favorites section ---------------------*/
+.favorites-header {
+  padding-bottom: 15px !important;
+  margin-top: 20px !important;
+}
+
+.cat-header {
+  font-size: 18px;
+  font-weight: 900; 
+  border-bottom: 1px solid var(--black);
+}
+
+.fave-link{  
+  margin-top: 10px !important;
+  padding-bottom: 10px;
+}
+
+.card-body.favorites {
+  background-color: var(--green) !important; 
+}
+
+.faves-input {
+  background-color: var(--white);
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 6px 6px 6px 6px;
+  height: 30px;  
+  margin-top: 30px;
+}
+
+.faves-input-btn {
+  background-color: var(--petite)  !important;
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--petite);
+  font-weight: 600 !important; 
+  border-radius: 6px 6px 6px 6px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.faves-input-btn:hover {
+  border: 2px solid var(--purple);
+  box-shadow: 0px 0px 1px 1px var(--purple);
+  background-color: var(--neptune) !important;
+  color: white !important;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--grey) !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: var(--blue) !important;
+  cursor: pointer;
+  transition: 5ms
+}
+
+/*---------------- Styling for calender section ---------------------*/
+
+.calender-body {
+  margin: 0 auto;
+  width: 100%!important;
+  min-height: max-content;
+  font-family: 'Courier New', Courier, monospace !important;
+  background-color: var(--astilbe) !important;
+}
+
+.react-calendar__tile--active {
+  background-color: var(--green) !important; 
+  color: var(--grey) !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: var(--rush) !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575 !important;
+}
