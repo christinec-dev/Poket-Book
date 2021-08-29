@@ -12,9 +12,9 @@ function Faves ({ favorite, visitFaves, index, removeFaves }) {
 
             {/*deletes favorite*/}
             <Col className="col-4"> 
-                <button onClick={() => removeFaves(index)} className="btn btn-icon-trash"> <i class="fas fa-trash"></i> </button>
+                <button onClick={() => removeFaves(index)} className="btn btn-icon-trash"> <i className="fas fa-trash"></i> </button>
   
-                <button onClick={() => visitFaves(index)} className="btn btn-icon-redo"><i class="fas fa-globe"></i> </button>
+                <button onClick={() => visitFaves(index)} className="btn btn-icon-redo"><i className="fas fa-globe"></i> </button>
             </Col>
         </Row>
     );
