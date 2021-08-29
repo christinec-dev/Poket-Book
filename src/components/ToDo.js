@@ -12,14 +12,14 @@ function Todo({ todo, index, completeTodo, unCompleteTodo, removeTodo }) {
           <div>
           {/*completes list*/}
           <button onClick={() => completeTodo(index)} className="btn btn-icon-check"> 
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </button>
           {/*uncompletes list*/}
           <button onClick={() => unCompleteTodo(index)} className="btn btn-icon-redo"> 
-          <i class="fas fa-redo"></i>
+          <i className="fas fa-redo"></i>
           </button>
           {/*deletes list*/}
-          <button onClick={() => removeTodo(index)} className="btn btn-icon-trash"> <i class="fas fa-trash"></i> </button>
+          <button onClick={() => removeTodo(index)} className="btn btn-icon-trash"> <i className="fas fa-trash"></i> </button>
         </div>
       </div>
     );
@@ -128,7 +128,7 @@ function Todo({ todo, index, completeTodo, unCompleteTodo, removeTodo }) {
                     ))}   
                   </div>
               </div><div className="card-pixels-todo">
-                    <span class="pixels">todos</span>
+                    <span className="pixels">todos</span>
                     </div>
             </div>
       </div>
