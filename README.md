@@ -12,7 +12,7 @@ Day three (3) of trying to code in React on my own was a success. I completed it
 Later on, when I have more time and understanding, I want to modify the calender so that you can store important dates or notes on it.
 
 #### BLOG 
-Complete explaination of **poket book** project is written here
+Complete explaination of **poket book** project is written here 👇
 **[`BLOG`](https://dev.to/christinecdev/let-s-make-a-pokemon-themed-note-keeping-app-in-react-2afg)**
 
 
