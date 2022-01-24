@@ -80,7 +80,7 @@ function Faves ({ favorite, visitFaves, index, removeFaves }) {
 
     //deletes the favorite from list
     const visitFaves = index => {
-      const newFaves = window.location.href=`{favorite.text}`;
+      const newFaves = window.location.href=favorites[index].text;
       setFaves(newFaves);
     };
       
