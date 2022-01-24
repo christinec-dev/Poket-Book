@@ -89,8 +89,8 @@ h2 {
 }
 
 .btn-success {
-  background-color: var(--success) !important;
-  color: var(--grey) !important;
+  background-color: #668cd8 !important;
+  color: white !important;
   border: 1px solid var(--green) !important; 
   font-weight: 600 !important; 
   border-radius: 6px 6px 6px 6px;
