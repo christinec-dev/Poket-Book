@@ -15,7 +15,7 @@ Later on, when I have more time and understanding, I want to modify the calender
 https://user-images.githubusercontent.com/87696858/130233851-f83862c7-b963-40df-adfc-71e0dd973cbe.mp4
 
 ## Main Display
-![image](https://user-images.githubusercontent.com/87696858/130233617-d872fde9-78b8-40e3-b84b-5e743a34bdf3.png)
+![image](https://user-images.githubusercontent.com/75296055/150721610-ce38520e-039d-417a-8381-361f17328cea.png)
 
 ## Modifying Notes
 ![screencapture-localhost-3000-2021-08-20-13_59_55](https://user-images.githubusercontent.com/87696858/130233662-ca7c69f5-37af-4fe9-aea3-ab6c4a632091.png)
