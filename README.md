@@ -8,6 +8,10 @@ A special thanks to the creators of the PokemonGB-font, PocketMonkFont, PokemonP
 
 Day three (3) of trying to code in React on my own was a success. I completed it with the following: React, JavaScript, HTML5, CSS3, SCSS and Bootstrap.
 
+## 💣 Play Via Demo Link  💣 ## 
+[PoketBook Game](catsweeper-c.herokuapp.com/)
+#### **Please note that if the app does not load or gives an error, just reload the page and Heroku will work again. Sorry for any inconveniece :) ####
+
 #### FUTURE NOTE: 
 Later on, when I have more time and understanding, I want to modify the calender so that you can store important dates or notes on it.
 
