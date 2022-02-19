@@ -9,7 +9,7 @@ A special thanks to the creators of the PokemonGB-font, PocketMonkFont, PokemonP
 Day three (3) of trying to code in React on my own was a success. I completed it with the following: React, JavaScript, HTML5, CSS3, SCSS and Bootstrap.
 
 ## 💣 Test Via Demo Link  💣 ## 
-[PoketBook Game](poketbook.herokuapp.com/)
+[PoketBook Application](poketbook.herokuapp.com/)
 #### **Please note that if the app does not load or gives an error, just reload the page and Heroku will work again. Sorry for any inconveniece :) ####
 
 #### FUTURE NOTE: 
